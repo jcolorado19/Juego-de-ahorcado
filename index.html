@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Juego de Ahorcado</title>
+	<script type="text/javascript" src="ahorcado.js"></script>
+	<style>
+		body
+		{
+			text-align: center;	
+		}
+
+		#cant_intentos
+		{
+			width: 25px;
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<h4>Juego de ahorcados</h4>
+	<p>
+		<label >Vida</label>
+		<label for=""> <input type="text" id="cant_intentos" disabled></label>
+	</p>
+	<h3 id="mostrar_frase">.</h3>
+	
+	<canvas id="campo"></canvas>
+	<p>
+		<input type="text" id="palabra">
+		<input type="button" id="digitar" value="Bomm!!..">
+	</p>
+	
+	
+	<script type="text/javascript">
+	inicio()
+	</script>
+	
+</body>
+</html>
